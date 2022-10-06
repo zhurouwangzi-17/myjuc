@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
  * CountDown：倒计时
  * Latch：门闩
  */
-public class T05_CountDownLatch {
+public class T05_TestCountDownLatch {
     public static void main(String[] args) {
         useJoin();
         useCountDownLatch();

@@ -6,7 +6,7 @@ import java.util.concurrent.Phaser;
  * phase：阶段
  * 这个类算是阶段性的栅栏
  */
-public class T07_Phaser {
+public class T07_TestPhaser {
 
     static MarriagePhaser phaser = new MarriagePhaser();
 
