@@ -11,7 +11,6 @@ public class T_Other {
 
     public static void main(String[] args) {
         T_Other t_other = new T_Other();
-
         //1、不指定线程名
 //        new Thread(t_other::m).start();
 

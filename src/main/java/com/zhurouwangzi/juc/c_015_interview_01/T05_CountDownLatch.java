@@ -7,6 +7,10 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 使用CountDownLatch的好处就是简单方便，并且还可以指定等待时间
+ * 但是如果把t1中的线程休眠代码去掉，有可能在size为6或者7什么的时候t2才会打印，
+ * 这是因为t1虽然执行到5把t2的门闩打开了，但是这个时候t1蹭蹭蹭往下执行，t2执行的比较慢
+ * 解决这个问题的办法就是使用两个门闩，给t1加一个门闩，当size为5的时候用门闩闩住t1，把t2的门闩打开
+ * t2执行完之后把t1的门闩打开
  */
 public class T05_CountDownLatch {
 
