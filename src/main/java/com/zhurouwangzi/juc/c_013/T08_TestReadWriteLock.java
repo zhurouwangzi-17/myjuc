@@ -1,6 +1,5 @@
 package com.zhurouwangzi.juc.c_013;
 
-import com.sun.org.apache.xml.internal.resolver.readers.ExtendedXMLCatalogReader;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

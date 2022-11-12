@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-161.16666666666669" y="-83.33333333333333">java.util.concurrent.locks.ReentrantLock</node>
+    <node x="-25.25" y="183.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
+    <node x="183.0" y="59.0">java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+    <node x="-164.66666666666669" y="135.0">java.util.concurrent.locks.Lock</node>
+    <node x="72.0" y="-75.99999999999999">java.util.concurrent.locks.ReentrantLock.Sync</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.ReentrantLock" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="128.5" y="49.0" />
+      <point x="110.5" y="49.0" />
+      <point x="110.5" y="29.0" />
+      <point x="-42.666666666666686" y="29.0" />
+      <point x="39.5" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync" relationship="GENERALIZATION">
+      <point x="28.25" y="-14.0" />
+      <point x="59.5" y="126.0" />
+      <point x="128.5" y="126.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock" relationship="INNER_CLASS">
+      <point x="-28.25" y="-14.0" />
+      <point x="3.0" y="155.0" />
+      <point x="31.0" y="155.0" />
+      <point x="31.0" y="49.0" />
+      <point x="110.5" y="49.0" />
+      <point x="110.5" y="29.0" />
+      <point x="-42.666666666666686" y="29.0" />
+      <point x="39.5" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="253.0" y="49.0" />
+      <point x="110.5" y="49.0" />
+      <point x="110.5" y="29.0" />
+      <point x="-42.666666666666686" y="29.0" />
+      <point x="39.5" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock" target="java.util.concurrent.locks.Lock" relationship="REALIZATION">
+      <point x="-39.5" y="14.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock.Sync" relationship="GENERALIZATION">
+      <point x="-70.0" y="-0.0" />
+      <point x="158.0" y="73.0" />
+      <point x="158.0" y="-61.999999999999986" />
+      <point x="56.499999999999986" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="136.5" y="95.50000000000003" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
