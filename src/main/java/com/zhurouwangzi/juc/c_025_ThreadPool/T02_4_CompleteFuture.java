@@ -1,4 +1,4 @@
-package com.zhurouwangzi.juc.c_024_ThreadPool;
+package com.zhurouwangzi.juc.c_025_ThreadPool;
 
 import java.io.IOException;
 import java.util.Random;

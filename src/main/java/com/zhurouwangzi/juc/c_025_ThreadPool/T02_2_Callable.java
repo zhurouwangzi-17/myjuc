@@ -1,4 +1,4 @@
-package com.zhurouwangzi.juc.c_024_ThreadPool;
+package com.zhurouwangzi.juc.c_025_ThreadPool;
 
 import java.util.concurrent.*;
 
